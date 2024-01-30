@@ -94,7 +94,7 @@ h1,h2,h3 {
 }
 
 .hero {
-    background-image: url(/media/devsbkg.jpg);
+    background-image: url(/static/media/wineback.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
