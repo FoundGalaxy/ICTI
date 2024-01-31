@@ -17,7 +17,8 @@
 <body>
 
     <header>
-        <h1 class="titulo">INSTITUTO DE CIENCIA, TECNOLOGÍA E INNOVACIÓN <span> Conversor</span></h1>
+        <img src="/static/media/ictilogo.png" alt="logo" class="logo">
+        <h1 class="titulo">INSTITUTO DE CIENCIA, TECNOLOGÍA E INNOVACIÓN <span> <a href="./conversor.html"> Conversor</a> </span></h1>
     </header>
 
     <div class="nav_bg">
@@ -33,11 +34,13 @@
 
         <div class="contenido_hero">
         
-            <div class="input-group">
-                <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04"
-                    aria-label="Upload">
-                <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon04">Convertir</button>
-            </div>
+            <form action="/upload" method="POST" enctype="multipart/form-data">
+                <div class="input-group">
+                    <input type="file" class="form-control" id="file" name="file" aria-describedby="inputGroupFileAddon04"
+                        aria-label="Upload">
+                    <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon04">Convertir</button>
+                </div>
+            </form>
         
         </div>
     </section>

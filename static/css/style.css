@@ -52,9 +52,10 @@ h1,h2,h3 {
     color: var(--primary);
 }
 
-.titulo span {
+.titulo span a{
     font-size: 2rem;
     color: var(--secondary);
+    text-decoration: none;
 }
 
 @media (min-width: 1200px) {
@@ -91,6 +92,14 @@ h1,h2,h3 {
 
 .nav_bg {
     background-color: var(--secondary);
+}
+
+.logo {
+    margin-left: 28rem;
+    padding-bottom: 1.5rem;
+    height: 80px;
+    width: 180px;
+    position: absolute;
 }
 
 .hero {
