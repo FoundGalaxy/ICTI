@@ -33,7 +33,7 @@ def upload():
         file.save(file_path)
 
         #Leemos el archivo .dat con pandas
-        df = pd.read_csv(file_path, sep='\t')
+        df = pd.read_csv(file_path, sep='\s+')
 
         #Convertimos el DataFrame a un archivo .xls usando ExcelWriter
         xls_filename = filename.replace('.dat', '.xls')
