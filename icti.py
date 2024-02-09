@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for, flash, ses
 import pandas as pd
 import re
 import os 
+import numpy as np
 from fpdf import FPDF
 
 app = Flask(__name__)

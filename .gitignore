@@ -1,0 +1,33 @@
+# Archivos de configuración
+instance/
+.env
+
+# Archivos de logs
+*.log
+
+# Archivos generados por el sistema
+.DS_Store
+Thumbs.db
+
+# Directorio de entorno virtual
+venv/
+env/
+.icti/
+
+# Archivos de caché y compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos generados por IDEs/editores
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
